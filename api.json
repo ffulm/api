@@ -1,0 +1,49 @@
+{
+  "name": "Freifunk Ulm",
+  "url": "http://ulm.freifunk.net",
+  "location": {
+    "city": "Ulm/Neu-Ulm",
+    "country": "DE",
+    "lat": 48.4,
+    "lon": 9.983333,
+    "address": {
+      "Name": "Freiraum",
+      "Street": "Platzgasse 18",
+      "Zipcode": "89073"
+    }
+  },
+  "contact": {
+    "email": "freifunk@lists.uni-ulm.de",
+    "irc": "irc://irc.freenode.net/#ffulm",
+    "ml": "freifunk@lists.uni-ulm.de"
+  },
+  "state": {
+    "nodes": 4,
+    "focus": [
+      "infrastructure/backbone",
+      "Public Free Wifi",
+      "Free internet access"
+    ],
+    "lastchange": "2015-01-17T07:24:18.182Z"
+  },
+  "nodeMaps": [
+    {
+      "url": "http://vpn2.ulm.freifunk.net/map/graph.html"
+    }
+  ],
+  "techDetails": {
+    "firmware": {
+      "url": "https://github.com/ffulm/firmware/releases"
+    },
+    "routing": [
+      "batman-adv"
+    ],
+    "updatemode": [
+      "autoupdate"
+    ],
+    "legals": [
+      "vpninternational"
+    ]
+  },
+  "api": "0.4.5"
+}

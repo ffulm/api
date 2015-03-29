@@ -18,22 +18,39 @@
     "ml": "freifunk@lists.uni-ulm.de"
   },
   "state": {
-    "nodes": 4,
+    "nodes": 16,
     "focus": [
       "infrastructure/backbone",
       "Public Free Wifi",
       "Free internet access"
     ],
-    "lastchange": "2015-01-17T07:24:18.182Z"
+    "lastchange": "2015-03-29T10:02:45.323Z"
   },
   "nodeMaps": [
     {
-      "url": "http://vpn2.ulm.freifunk.net/map/graph.html"
+      "url": "http://vpn2.ulm.freifunk.net/map/graph.html",
+      "interval": "5 min.",
+      "technicalType": "ffmap",
+      "mapType": "structural"
+    },
+    {
+      "url": "http://vpn2.ulm.freifunk.net/map/geomap.html",
+      "interval": "5 min.",
+      "technicalType": "ffmap",
+      "mapType": "geographical"
+    },
+    {
+      "url": "http://vpn2.ulm.freifunk.net/map/list.html",
+      "interval": "5 min.",
+      "technicalType": "ffmap",
+      "mapType": "list/status"
     }
   ],
   "techDetails": {
     "firmware": {
-      "url": "https://github.com/ffulm/firmware/releases"
+      "name": "ffbi",
+      "url": "https://github.com/ffulm/firmware/releases",
+      "docs": "https://github.com/ffulm/firmware"
     },
     "routing": [
       "batman-adv"
@@ -45,5 +62,5 @@
       "vpninternational"
     ]
   },
-  "api": "0.4.5"
+  "api": "0.4.6"
 }

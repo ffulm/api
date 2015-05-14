@@ -24,23 +24,23 @@
       "Public Free Wifi",
       "Free internet access"
     ],
-    "lastchange": "2015-03-29T10:02:45.323Z"
+    "lastchange": "2015-05-14T05:33:09.611Z"
   },
   "nodeMaps": [
     {
-      "url": "http://vpn2.ulm.freifunk.net/map/graph.html",
+      "url": "http://vpn5.ulm.freifunk.net/map/graph.html",
       "interval": "5 min.",
       "technicalType": "ffmap",
       "mapType": "structural"
     },
     {
-      "url": "http://vpn2.ulm.freifunk.net/map/geomap.html",
+      "url": "http://vpn5.ulm.freifunk.net/map/geomap.html",
       "interval": "5 min.",
       "technicalType": "ffmap",
       "mapType": "geographical"
     },
     {
-      "url": "http://vpn2.ulm.freifunk.net/map/list.html",
+      "url": "http://vpn5.ulm.freifunk.net/map/list.html",
       "interval": "5 min.",
       "technicalType": "ffmap",
       "mapType": "list/status"
@@ -62,5 +62,5 @@
       "vpninternational"
     ]
   },
-  "api": "0.4.6"
+  "api": "0.4.8"
 }

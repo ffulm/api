@@ -18,29 +18,29 @@
     "ml": "freifunk@lists.uni-ulm.de"
   },
   "state": {
-    "nodes": 16,
+    "nodes": 29,
     "focus": [
       "infrastructure/backbone",
       "Public Free Wifi",
       "Free internet access"
     ],
-    "lastchange": "2015-05-14T19:27:00.144Z"
+    "lastchange": "2015-05-24T10:02:38.480Z"
   },
   "nodeMaps": [
     {
-      "url": "http://vpn5.freifunk-ulm.de/map/graph.html",
+      "url": "http://vpn5.freifunk-ulm.de/graph.html",
       "interval": "5 min.",
       "technicalType": "ffmap",
       "mapType": "structural"
     },
     {
-      "url": "http://vpn5.freifunk-ulm.de/map/geomap.html",
+      "url": "http://vpn5.freifunk-ulm.de/geomap.html",
       "interval": "5 min.",
       "technicalType": "ffmap",
       "mapType": "geographical"
     },
     {
-      "url": "http://vpn5.freifunk-ulm.de/map/list.html",
+      "url": "http://vpn5.freifunk-ulm.de/list.html",
       "interval": "5 min.",
       "technicalType": "ffmap",
       "mapType": "list/status"

@@ -18,13 +18,13 @@
     "ml": "freifunk@lists.uni-ulm.de"
   },
   "state": {
-    "nodes": 29,
+    "nodes": 42,
     "focus": [
       "infrastructure/backbone",
       "Public Free Wifi",
       "Free internet access"
     ],
-    "lastchange": "2015-05-24T10:02:38.480Z"
+    "lastchange": "2015-06-26T15:03:49.942Z"
   },
   "nodeMaps": [
     {

@@ -18,13 +18,13 @@
     "ml": "freifunk@lists.uni-ulm.de"
   },
   "state": {
-    "nodes": 98,
+    "nodes": 118,
     "focus": [
       "infrastructure/backbone",
       "Public Free Wifi",
       "Free internet access"
     ],
-    "lastchange": "2015-09-20T14:22:09.010Z"
+    "lastchange": "2015-10-30T18:52:52.075Z"
   },
   "nodeMaps": [
     {
@@ -48,7 +48,7 @@
   ],
   "techDetails": {
     "firmware": {
-      "name": "ffbi",
+      "name": "ffulm",
       "url": "http://vpn5.freifunk-ulm.de/firmware/",
       "docs": "https://github.com/ffulm/firmware"
     },
@@ -79,5 +79,5 @@
       "vpninternational"
     ]
   },
-  "api": "0.4.8"
+  "api": "0.4.9"
 }

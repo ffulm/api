@@ -18,13 +18,13 @@
     "ml": "freifunk@lists.uni-ulm.de"
   },
   "state": {
-    "nodes": 150,
+    "nodes": 170,
     "focus": [
       "infrastructure/backbone",
       "Public Free Wifi",
       "Free internet access"
     ],
-    "lastchange": "2015-11-25T21:32:34.032Z"
+    "lastchange": "2016-01-23T14:02:58.744Z"
   },
   "nodeMaps": [
     {
@@ -46,6 +46,16 @@
       "mapType": "list/status"
     }
   ],
+  "support": {
+    "club": {
+      "name": "Freifunk Unterstützungsverein e.V. (BfTG e.V.)",
+      "street": "Fichtestr. 13",
+      "zip": "89231",
+      "city": "Neu-Ulm",
+      "url": "http://freifunk-unterstuetzungsverein.de/",
+      "email": "unterstuetzungsverein@freifunk-ulm.de"
+    }
+  },
   "techDetails": {
     "firmware": {
       "name": "ffulm",
@@ -79,5 +89,5 @@
       "vpninternational"
     ]
   },
-  "api": "0.4.9"
+  "api": "0.4.11"
 }

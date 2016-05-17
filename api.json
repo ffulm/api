@@ -18,32 +18,37 @@
     "ml": "freifunk@lists.uni-ulm.de"
   },
   "state": {
-    "nodes": 170,
+    "nodes": 200,
     "focus": [
       "infrastructure/backbone",
       "Public Free Wifi",
       "Free internet access"
     ],
-    "lastchange": "2016-01-23T14:02:58.744Z"
+    "lastchange": "2016-05-17T05:43:14.312Z"
   },
   "nodeMaps": [
     {
-      "url": "http://vpn5.freifunk-ulm.de/graph.html",
+      "url": "https://vpn5.freifunk-ulm.de/graph.html",
       "interval": "5 min.",
       "technicalType": "ffmap",
       "mapType": "structural"
     },
     {
-      "url": "http://vpn5.freifunk-ulm.de/geomap.html",
+      "url": "https://vpn5.freifunk-ulm.de/geomap.html",
       "interval": "5 min.",
       "technicalType": "ffmap",
       "mapType": "geographical"
     },
     {
-      "url": "http://vpn5.freifunk-ulm.de/list.html",
+      "url": "https://vpn5.freifunk-ulm.de/list.html",
       "interval": "5 min.",
       "technicalType": "ffmap",
       "mapType": "list/status"
+    },
+    {
+      "url": "https://vpn5.freifunk-ulm.de/meshviewer/",
+      "interval": "5 min.",
+      "technicalType": "meshviewer"
     }
   ],
   "support": {
@@ -59,7 +64,7 @@
   "techDetails": {
     "firmware": {
       "name": "ffulm",
-      "url": "http://vpn5.freifunk-ulm.de/firmware/",
+      "url": "https://vpn5.freifunk-ulm.de/firmware/",
       "docs": "https://github.com/ffulm/firmware"
     },
     "dns": [
@@ -89,5 +94,5 @@
       "vpninternational"
     ]
   },
-  "api": "0.4.11"
+  "api": "0.4.13"
 }

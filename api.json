@@ -13,58 +13,47 @@
     }
   },
   "contact": {
-    "email": "freifunk@lists.uni-ulm.de",
+    "email": "freifunkulm@lists.freifunk-ulm.de",
     "irc": "irc://irc.freenode.net/#ffulm",
-    "ml": "freifunk@lists.uni-ulm.de"
+    "ml": "freifunkulm@lists.freifunk-ulm.de"
   },
   "state": {
-    "nodes": 200,
+    "nodes": 240,
     "focus": [
       "infrastructure/backbone",
       "Public Free Wifi",
       "Free internet access"
     ],
-    "lastchange": "2016-05-17T05:43:14.312Z"
+    "lastchange": "2017-09-07T11:48:25.430Z"
   },
   "nodeMaps": [
     {
-      "url": "https://vpn5.freifunk-ulm.de/graph.html",
+      "url": "https://map10.freifunk-ulm.de/meshviewer/#/de/graph",
       "interval": "5 min.",
-      "technicalType": "ffmap",
+      "technicalType": "meshviewer",
       "mapType": "structural"
     },
     {
-      "url": "https://vpn5.freifunk-ulm.de/geomap.html",
+      "url": "https://map10.freifunk-ulm.de/meshviewer/#/de/map",
       "interval": "5 min.",
-      "technicalType": "ffmap",
+      "technicalType": "meshviewer",
       "mapType": "geographical"
-    },
-    {
-      "url": "https://vpn5.freifunk-ulm.de/list.html",
-      "interval": "5 min.",
-      "technicalType": "ffmap",
-      "mapType": "list/status"
-    },
-    {
-      "url": "https://vpn5.freifunk-ulm.de/meshviewer/",
-      "interval": "5 min.",
-      "technicalType": "meshviewer"
     }
   ],
   "support": {
     "club": {
-      "name": "Freifunk Unterstützungsverein e.V. (BfTG e.V.)",
+      "name": "Freifunk Unterstützungsverein e.V.",
       "street": "Fichtestr. 13",
       "zip": "89231",
       "city": "Neu-Ulm",
       "url": "http://freifunk-unterstuetzungsverein.de/",
-      "email": "unterstuetzungsverein@freifunk-ulm.de"
+      "email": "vorsitzender@freifunk-unterstuetzungsverein.de"
     }
   },
   "techDetails": {
     "firmware": {
       "name": "ffulm",
-      "url": "https://vpn5.freifunk-ulm.de/firmware/",
+      "url": "https://firmware.freifunk-ulm.de/",
       "docs": "https://github.com/ffulm/firmware"
     },
     "dns": [
@@ -94,5 +83,5 @@
       "vpninternational"
     ]
   },
-  "api": "0.4.13"
+  "api": "0.4.14"
 }

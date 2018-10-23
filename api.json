@@ -24,7 +24,7 @@
       "Public Free Wifi",
       "Free internet access"
     ],
-    "lastchange": "2017-09-07T11:48:25.430Z"
+    "lastchange": "2018-10-23T18:58:09.771Z"
   },
   "nodeMaps": [
     {
@@ -64,7 +64,7 @@
     "networks": {
       "ipv6": [
         {
-          "network": "fdaf:17a0:fff1::/48"
+          "network": "fdef:17a0:fff1::/48"
         }
       ],
       "ipv4": [
@@ -80,6 +80,7 @@
       "autoupdate"
     ],
     "legals": [
+      "vpnnational",
       "vpninternational"
     ]
   },

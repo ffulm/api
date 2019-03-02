@@ -24,7 +24,7 @@
       "Public Free Wifi",
       "Free internet access"
     ],
-    "lastchange": "2018-12-15T21:13:50.509Z"
+    "lastchange": "2019-03-02T19:20:17.737Z"
   },
   "nodeMaps": [
     {
@@ -62,11 +62,15 @@
       "email": "vorsitzender@freifunk-unterstuetzungsverein.de"
     }
   },
+  "privacy": {
+    "policyurl": "http://freifunk-unterstuetzungsverein.de/datenschutzerklaerung.html"
+  },
   "techDetails": {
     "firmware": {
       "name": "ffulm",
       "url": "https://firmware.freifunk-ulm.de/",
-      "docs": "https://github.com/ffulm/firmware"
+      "docs": "https://github.com/ffulm/firmware",
+      "vpnaccess": "fwimage"
     },
     "dns": [
       {

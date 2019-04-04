@@ -24,21 +24,9 @@
       "Public Free Wifi",
       "Free internet access"
     ],
-    "lastchange": "2019-03-12T19:06:30.454Z"
+    "lastchange": "2019-04-04T19:44:52.087Z"
   },
   "nodeMaps": [
-    {
-      "url": "https://map10.freifunk-ulm.de/meshviewer/#/de/graph",
-      "interval": "5 min.",
-      "technicalType": "meshviewer",
-      "mapType": "structural"
-    },
-    {
-      "url": "https://map10.freifunk-ulm.de/meshviewer/#/de/map",
-      "interval": "5 min.",
-      "technicalType": "meshviewer",
-      "mapType": "geographical"
-    },
     {
       "url": "https://map11.freifunk-ulm.de/meshviewer/#/de/graph",
       "interval": "5 min.",
@@ -52,13 +40,19 @@
       "mapType": "geographical"
     },
     {
-      "url": "https://map10.freifunk-ulm.de/data/meshviewer.json",
+      "url": "https://map10.freifunk-ulm.de/meshviewer/#/de/graph",
       "interval": "5 min.",
       "technicalType": "meshviewer",
-      "mapType": "list/status"
+      "mapType": "structural"
     },
     {
-      "url": "https://map11.freifunk-ulm.de/data/meshviewer.json",
+      "url": "https://map10.freifunk-ulm.de/meshviewer/#/de/map",
+      "interval": "5 min.",
+      "technicalType": "meshviewer",
+      "mapType": "geographical"
+    },
+    {
+      "url": "https://map11.freifunk-ulm.de/data/meshviewer_both.json",
       "interval": "5 min.",
       "technicalType": "meshviewer",
       "mapType": "list/status"

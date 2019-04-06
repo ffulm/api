@@ -24,9 +24,15 @@
       "Public Free Wifi",
       "Free internet access"
     ],
-    "lastchange": "2019-04-04T19:44:52.087Z"
+    "lastchange": "2019-04-06T19:32:57.444Z"
   },
   "nodeMaps": [
+    {
+      "url": "https://map11.freifunk-ulm.de/data/meshviewer_both.json",
+      "interval": "5 min.",
+      "technicalType": "meshviewer",
+      "mapType": "list/status"
+    },
     {
       "url": "https://map11.freifunk-ulm.de/meshviewer/#/de/graph",
       "interval": "5 min.",
@@ -50,12 +56,6 @@
       "interval": "5 min.",
       "technicalType": "meshviewer",
       "mapType": "geographical"
-    },
-    {
-      "url": "https://map11.freifunk-ulm.de/data/meshviewer_both.json",
-      "interval": "5 min.",
-      "technicalType": "meshviewer",
-      "mapType": "list/status"
     }
   ],
   "support": {
